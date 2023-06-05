@@ -15,7 +15,7 @@ This is a multi-threaded Linux program that accepts a single integer parameter f
 2. Compile the program using the following command:
 
    ```bash
-   cc -g -std=c99 fibonacci.c -lpthread -o fibonacci
+   make
 3. Run the program and enter a positive integer when prompted:
    ./fibonacci
 4. The program will calculate and display the first N Fibonacci numbers, where N is the integer entered.
